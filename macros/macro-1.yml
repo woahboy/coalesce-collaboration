@@ -1,0 +1,8 @@
+fileVersion: 1
+id: "1"
+macroString: |
+  {%- macro u() -%}
+      {{column.name|upper}}
+  {%- endmacro %}
+name: macro
+type: Macro
